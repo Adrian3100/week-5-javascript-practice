@@ -29,8 +29,9 @@
   <script>
     // Try it! 
     let f4, f5;
-
-    document.write();
+    f4 = "apple";
+    f5 = "mango";
+    document.write(f4 + f5);
   </script>
   <p> Try it! One more time, make up a new fruit! </p>
   <h3>Another Example</h3>
@@ -38,6 +39,8 @@
     "-" between them.</p>
   <p>I like
     <script>
+      let f6;
+      f6 = "grapes"
       document.write(f1 + "-" + f2);
     </script>
   </p>
@@ -46,13 +49,18 @@
   <p>
     I also like:
     <script>
-      document.write();
+      let f7, f8;
+      f7 = "peach"
+      f8 = "dragonfruit"
+      document.write(f7 + "-" + f8);
     </script>
   </p>
   <p>
     But my favorite is:
     <script>
-      document.write();
+      let f9;
+      f9 = "bluebberries"
+      document.write(f7 + "-" + f6 + "-" f8);
     </script>
   </p>
 
@@ -76,26 +84,34 @@
   <p>Try to make a fruit that is a combo of three or more fruits.</p>
   <script>
     let fruit2;
+    fruit2 = "mango";
+    fruit2 += "blackberry";
+    fruit2 += "banana";
   </script>
   <p>
     The best fruit in the world would be a...
     <script>
 
 
-      document.write();
+      document.write(fruit2);
     </script>
   </p>
   <h3>Try it!</h3>
   <p> Try one more with even more fruits combined. Bonus: can you add a "-" between the fruit names?</p>
-
+  <script>
+    let fruit3;
+    fruit3 = "apple"
+    fruit3 += "orange"
+    fruit3 += "grapefruit"
+    fruit3 += "plums"
+  </script>
   <p>
     Really, the best is...
     <script>
-
-
-
+     document.write(fruit3);
     </script>
   </p>
+
 
 </body>
 
